@@ -16,6 +16,8 @@ mixed_List = ["apple", 3, "pineapple", 10, 7]
 
 
 # Append Method
+# ------------------------------------------------------------
+
 # Add language inside Programming Language list
 
 # programming_Languages = ["python", "Html", "Java"]
@@ -24,6 +26,8 @@ mixed_List = ["apple", 3, "pineapple", 10, 7]
 
 
 # Extend Method
+# ------------------------------------------------------------
+
 #Add more than 1 values in the list
 
 # fruit = ["banana"]
@@ -41,6 +45,8 @@ mixed_List = ["apple", 3, "pineapple", 10, 7]
 
 
 # Insert Method
+# ------------------------------------------------------------
+
 # Add an item at a specific Index
 
 # car_Brands = ["Toyota", "BMW", "Ferrari", "Lamborghini"]
@@ -49,6 +55,8 @@ mixed_List = ["apple", 3, "pineapple", 10, 7]
 
 
 # Remove Method
+# ------------------------------------------------------------
+
 # Removes the first matching item
 
 # furtniture = ["table", "chair", "showcase", "chair", "window", "dining table"]
@@ -57,6 +65,8 @@ mixed_List = ["apple", 3, "pineapple", 10, 7]
 
 
 # Pop Method
+# ------------------------------------------------------------
+
 # Removes and returs an item
 
 # electronics = ["tv", "laptop", "keyboard", "mouse", "speaker", "lcd"]
@@ -64,6 +74,8 @@ mixed_List = ["apple", 3, "pineapple", 10, 7]
 # print(electronics)
 
 # Clear Method
+# ------------------------------------------------------------
+
 #Removes all items
 
 # flowers = ["rose", "tulip", "sunflower", "daisy"]
@@ -73,6 +85,8 @@ mixed_List = ["apple", 3, "pineapple", 10, 7]
 
 
 # Index Method
+# ------------------------------------------------------------
+
 # Returns the index of an item
 
 # planets = ["mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", "neptune"]
@@ -81,6 +95,8 @@ mixed_List = ["apple", 3, "pineapple", 10, 7]
 
 
 # Count Method
+# ------------------------------------------------------------
+
 # Counts how many times an item appears
 
 # continents = ["asia", "africa", "north-america", "south-america", "antarctica", "europe", "australia", "south-america"]
@@ -89,6 +105,8 @@ mixed_List = ["apple", 3, "pineapple", 10, 7]
 
 
 # Sort Method
+# ------------------------------------------------------------
+
 # Sorts the list
 
 # continents.sort()
@@ -96,6 +114,8 @@ mixed_List = ["apple", 3, "pineapple", 10, 7]
 
 
 # Reverse Method
+# ------------------------------------------------------------
+
 # Reverses the list
 
 # continents.reverse()
@@ -131,6 +151,8 @@ print(animals)
 
 
 # List Slicing
+# ------------------------------------------------------------
+
 # List slicing allows us to get multiple items from a list.
 
 fruits = ["apple", "banana", "orange", "mango", "grapes"]
@@ -156,6 +178,8 @@ print(fruits[:])
 
 
 # List Slicing with Step
+# ------------------------------------------------------------
+
 
 # list[start:end:step]
 numbers = [10, 20, 30, 40, 50, 60]
@@ -165,48 +189,60 @@ print(numbers[0:6:2])
 
 
 # List Operators
+# ------------------------------------------------------------
+
 
 # + — Concatenation
+# ------------------------------------------------------------
+
 first_List = [1, 2, 3]
 second_List = [4, 5, 6]
 combined_List = first_List + second_List
 
 print(combined_List)
-# [1, 2, 3, 4, 5, 6]
+# output: [1, 2, 3, 4, 5, 6]
 
 
 # * — Repetition
+# ------------------------------------------------------------
+
 numbers = [1, 2, 3]
 
 result = numbers * 3
 
 print(result)
-# [1, 2, 3, 1, 2, 3, 1, 2, 3]
+# output: [1, 2, 3, 1, 2, 3, 1, 2, 3]
 
 
 # in — Membership
+# ------------------------------------------------------------
+
 fruits = ["apple", "banana", "mango"]
 print("banana" in fruits)
-# True
+# output: True
 
 # not in
+# ------------------------------------------------------------
+
 fruits = ["apple", "banana", "mango"]
 print("orange" not in fruits)
-# True
+# output: True
 
 
 
 # Built-in Functions with Lists
+# ------------------------------------------------------------
+
 
 # len()
 fruits = ["apple", "banana", "mango", "orange"]
 print(len(fruits))
-# 4
+# output: 4
 
 # min()
 numbers = [40, 10, 30, 20]
 print(min(numbers))
-# 10
+# output: 10
 
 # max()
 numbers = [40, 10, 30, 20]
@@ -216,7 +252,7 @@ print(max(numbers))
 # sum()
 numbers = [10, 20, 30, 40]
 print(sum(numbers))
-# 100
+# output: 100
 
 # sorted()
 numbers = [40, 10, 30, 20]
@@ -224,11 +260,12 @@ numbers = [40, 10, 30, 20]
 sorted_numbers = sorted(numbers)
 print(sorted_numbers)
 print(numbers)
-# [10, 20, 30, 40]
-# [40, 10, 30, 20]
+# output: [10, 20, 30, 40]
+# output: [40, 10, 30, 20]
 
 
 # List Unpacking
+# ------------------------------------------------------------
 
 numbers = [10, 20, 30]
 
@@ -237,27 +274,32 @@ print(a)
 print(b)
 print(c)
 
-# 10
-# 20
-# 30
+# output: 10
+# output: 20
+# output: 30
 
 
 # Nested Lists
+# ------------------------------------------------------------
 
 numbers = [[1, 2], [3, 4], [5, 6]]
 print(numbers)
-# [[1, 2], [3, 4], [5, 6]]
+# output: [[1, 2], [3, 4], [5, 6]]
 
 
 # Accessing a Nested List
+# ------------------------------------------------------------
+
 numbers = [[1, 2], [3, 4], [5, 6]]
 print(numbers[0])
-# [1, 2]
+# output: [1, 2]
 
 
 # Updating Nested List Items
+# ------------------------------------------------------------
+
 numbers = [[1, 2], [3, 4], [5, 6]]
 numbers[1][0] = 30
 print(numbers)
 
-# [[1, 2], [30, 4], [5, 6]]
+# output: [[1, 2], [30, 4], [5, 6]]
