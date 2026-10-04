@@ -20,9 +20,9 @@ mixed_List = ["apple", 3, "pineapple", 10, 7]
 
 # Add language inside Programming Language list
 
-# programming_Languages = ["python", "Html", "Java"]
-# programming_Languages.append("Javascript")
-# print(programming_Languages)
+programming_Languages = ["python", "Html", "Java"]
+programming_Languages.append("Javascript")
+print(programming_Languages)
 
 
 # Extend Method
@@ -30,18 +30,18 @@ mixed_List = ["apple", 3, "pineapple", 10, 7]
 
 #Add more than 1 values in the list
 
-# fruit = ["banana"]
-# fruit.extend(["apple", "peach"])
-# print(fruit)
+fruit = ["banana"]
+fruit.extend(["apple", "peach"])
+print(fruit)
 
 
 # We can also add another list
 
-# vegetables = ["lettuce", "garlic"]
-# vegetables2 = ["cucumber", "carrot", "potato"]
+vegetables = ["lettuce", "garlic"]
+vegetables2 = ["cucumber", "carrot", "potato"]
 
-# vegetables.extend(vegetables2)
-# print(vegetables)
+vegetables.extend(vegetables2)
+print(vegetables)
 
 
 # Insert Method
@@ -49,9 +49,9 @@ mixed_List = ["apple", 3, "pineapple", 10, 7]
 
 # Add an item at a specific Index
 
-# car_Brands = ["Toyota", "BMW", "Ferrari", "Lamborghini"]
-# car_Brands.insert(len(car_Brands), "Hundai")
-# print(car_Brands)
+car_Brands = ["Toyota", "BMW", "Ferrari", "Lamborghini"]
+car_Brands.insert(len(car_Brands), "Hundai")
+print(car_Brands)
 
 
 # Remove Method
@@ -59,9 +59,9 @@ mixed_List = ["apple", 3, "pineapple", 10, 7]
 
 # Removes the first matching item
 
-# furtniture = ["table", "chair", "showcase", "chair", "window", "dining table"]
-# furtniture.remove("chair")
-# print(furtniture)
+furtniture = ["table", "chair", "showcase", "chair", "window", "dining table"]
+furtniture.remove("chair")
+print(furtniture)
 
 
 # Pop Method
@@ -69,19 +69,19 @@ mixed_List = ["apple", 3, "pineapple", 10, 7]
 
 # Removes and returs an item
 
-# electronics = ["tv", "laptop", "keyboard", "mouse", "speaker", "lcd"]
-# print(electronics.pop(3))
-# print(electronics)
+electronics = ["tv", "laptop", "keyboard", "mouse", "speaker", "lcd"]
+print(electronics.pop(3))
+print(electronics)
 
 # Clear Method
 # ------------------------------------------------------------
 
 #Removes all items
 
-# flowers = ["rose", "tulip", "sunflower", "daisy"]
-# print(flowers)
-# flowers.clear()
-# print(flowers)
+flowers = ["rose", "tulip", "sunflower", "daisy"]
+print(flowers)
+flowers.clear()
+print(flowers)
 
 
 # Index Method
@@ -89,9 +89,9 @@ mixed_List = ["apple", 3, "pineapple", 10, 7]
 
 # Returns the index of an item
 
-# planets = ["mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", "neptune"]
-# print(planets.index("saturn"))
-# print(planets)
+planets = ["mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", "neptune"]
+print(planets.index("saturn"))
+print(planets)
 
 
 # Count Method
@@ -99,9 +99,9 @@ mixed_List = ["apple", 3, "pineapple", 10, 7]
 
 # Counts how many times an item appears
 
-# continents = ["asia", "africa", "north-america", "south-america", "antarctica", "europe", "australia", "south-america"]
-# print(continents.count("south-america"))
-# print(continents)
+continents = ["asia", "africa", "north-america", "south-america", "antarctica", "europe", "australia", "south-america"]
+print(continents.count("south-america"))
+print(continents)
 
 
 # Sort Method
@@ -109,8 +109,8 @@ mixed_List = ["apple", 3, "pineapple", 10, 7]
 
 # Sorts the list
 
-# continents.sort()
-# print(continents)
+continents.sort()
+print(continents)
 
 
 # Reverse Method
@@ -118,8 +118,8 @@ mixed_List = ["apple", 3, "pineapple", 10, 7]
 
 # Reverses the list
 
-# continents.reverse()
-# print(continents)
+continents.reverse()
+print(continents)
 
 
 # Task 1
