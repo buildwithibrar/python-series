@@ -93,7 +93,7 @@ colors = ("red", "green", "blue", "yellow", "black", "white")
 
 # Task 11
 # Access the third item.
-print(colors[3])
+print(colors[2])
 
 # Task 12
 # Access the second-last item.
@@ -196,14 +196,13 @@ new_Numbers = (10, 20, 30, 40, 50)
 # the last number into last,
 # and all middle numbers into middle.
 
-first = new_Numbers[0]
-last = new_Numbers[-1]
-print("First:",first)
-print("Last:",last)
+first, *middle, last = new_Numbers
+middle = tuple(middle)
 
+print(first)
+print(middle)
+print(last)
 
-middle = new_Numbers[1:-1]
-print("Middle:", middle)
 
 
 # Tuple ↔ List
