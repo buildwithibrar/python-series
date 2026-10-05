@@ -96,5 +96,71 @@ person = {
 }
 
 new_person = person.copy()
-
 print(new_person)
+
+
+# fromkeys() creates a new dictionary using a sequence of keys and gives all of them the same default
+# ------------------------------------------------------------
+
+keys = ["name", "age", "country"]
+
+person = dict.fromkeys(keys, "Nothing")
+print(person)
+
+
+# Dictionary Unpacking
+# ------------------------------------------------------------
+
+person = {
+    "name": "Bilal",
+    "age": 24
+}
+
+details = {
+    **person, # Here we includes the "person" all keys and their values.
+    "country": "Pakistan"
+}
+
+print(details)
+
+
+# Combining dictionaries
+person = {
+    "name": "Bilal",
+    "age": 24
+}
+
+contact = {
+    "email": "bilal@gmail.com",
+    "phone": "123456"
+}
+
+combined = {
+    **person,
+    **contact
+}
+
+print(combined)
+
+
+
+# Nested Dictionaries
+# ------------------------------------------------------------
+
+students = {
+    "student1": {
+        "name": "Ali",
+        "age": 22
+    },
+
+    "student2": {
+        "name": "Ahmed",
+        "age": 24
+    }
+}
+
+print(students["student1"]["name"])
+
+# Modify nested values
+students["student1"]["name"] = "Ibrar"
+print(students)
