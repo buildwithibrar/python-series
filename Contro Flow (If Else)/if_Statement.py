@@ -1,3 +1,5 @@
+""""
+
 # if Statement
 # ------------------------------------------------------------
 
@@ -184,3 +186,52 @@ elif operator == "/":
 
 elif operator not in ["+", "-", "*", "/"]:
     print("Enter Correct Operator")
+"""
+
+# ------------------------------------------------------------
+# ------------------------------------------------------------
+# ------------------------------------------------------------
+# ------------------------------------------------------------
+
+
+
+# Critical Combining-Conditions Tasks
+# ------------------------------------------------------------
+
+# Print "Allowed" only when:
+# - age is 18 or older
+# - AND the person has a ticket
+
+age = 25
+has_ticket = True
+if age > 18 and has_ticket:
+    print("Allowed")
+
+
+# Print "Weekend" when the day is:
+# - "Saturday"
+# - OR "Sunday"
+# Otherwise print "Weekday".
+
+day = input("Enter Day: ")
+
+if day == "sunday" or day == "saturday":
+    print("Weekend")
+else:
+    print("Weekday")
+
+
+# Print "Access granted" when:
+# - age is 18 or older
+# - AND has an ID
+# - AND is not banned
+# Otherwise print "Access denied".
+
+age = int(input("Enter Age: "))
+id = True
+is_banned = False
+
+if age >= 18 and id and not is_banned:
+    print("Access Granted")
+else:
+    print("Access Denied")
