@@ -237,3 +237,66 @@ while number <= 100:
     sum += number
     number += 1
 print(f"Total Sum: {sum}")
+
+
+
+
+# Keeps asking the user to enter a number until they enter 10.
+#---------------------------------------------------------------------------
+
+user = int(input("Enter the number: "))
+
+while user != 10:
+    print("Wrong!")
+
+    user = int(input("Enter the Number Again: "))
+
+print("Correct!")
+
+
+# Task 1 — Number Guessing
+#---------------------------------------------------------------------------
+
+secret_Number = 37
+user_Number = 0
+
+guess_Attempts = 0
+
+while user_Number != secret_Number:
+    user_Number = int(input("Enter Secret Number: "))
+    guess_Attempts += 1
+
+    if user_Number > secret_Number:
+        print("Too High!")
+    elif user_Number <  secret_Number:
+        print("Too Low!")
+    else:
+        print("You guessed Right")
+
+print(f"Attempts: {guess_Attempts}")
+
+
+# Task 2 — Password System
+#---------------------------------------------------------------------------
+# Create a login system.
+# Correct password: "python123"
+
+# If all 3 attempts are wrong:
+
+password = "python123"
+attempts = 3
+user_password = ""
+
+while password != user_password and attempts > 0:
+    user_password = print(input("Enter Password: "))
+
+    if user_password == password:
+        print("Login Successful!")
+
+    else:
+        attempts -= 1
+        print("Wrong Password")
+        print(f"Attempts Remaining {attempts}")
+
+if attempts == 0 and password != user_password:
+    print("Account Locked!")
